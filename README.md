@@ -3,7 +3,7 @@ Analogy is an experimental open source project for Natural Language Processing. 
 
 Analogy provides semantic similiarity and differences between two pieces of text. Text can be in the form of a word or a sentence.
 
-A pretrained model is released to get started. You can also retrain upon an existing model.
+A pretrained model is released to get easily started. You can also retrain upon an existing model.
 
 ### Getting Started:
 
@@ -25,7 +25,7 @@ Read instructions on [how to install and run Stanford CoreNLP server](http://sta
 2. findSentenceComparison(model, sentence1, sentence2)
 3. trainModel(sentences) #Input is list of sentences
 4. retrainModel(model, sentences)
-5. saveModel(name, model) #Be sure to add '.npz' at last
+5. saveModel(name, model) #Be sure to add '.npz' at the end
 6. loadModel(name)
 
 #### Example:
